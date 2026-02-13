@@ -9,6 +9,7 @@
     <module name="Hryvinskyi_PageSpeedFrontendUi">
         <sequence>
             <module name="Hryvinskyi_PageSpeedApi"/>
+            <module name="Magento_PageCache"/>
         </sequence>
     </module>
 </config>

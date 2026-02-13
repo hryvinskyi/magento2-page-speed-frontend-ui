@@ -10,4 +10,9 @@
         <plugin name="Hryvinskyi_PageSpeedFrontendUi::modify_output_html"
                 type="Hryvinskyi\PageSpeedFrontendUi\Controller\Result\ModifyOutputHtml" sortOrder="-100" />
     </type>
+    <type name="Magento\PageCache\Controller\Block\Esi">
+        <plugin name="hryvinskyi_page_speed_esi_modify_output"
+                type="Hryvinskyi\PageSpeedFrontendUi\Plugin\EsiModifyOutputPlugin"
+                sortOrder="100"/>
+    </type>
 </config>
